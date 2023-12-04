@@ -26,7 +26,6 @@ export default {
   align-items: center;
   flex-shrink: 0;
   align-self: stretch;
-
   height: 5.625rem;
   color: var(--clr-txt-primary);
 }

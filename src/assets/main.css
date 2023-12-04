@@ -27,6 +27,7 @@ body,html {
   justify-content: center;
   align-items: flex-start;
   gap: 0.625rem;
+  overflow: hidden;
 }
 
 h1{
