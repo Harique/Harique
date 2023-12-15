@@ -4,6 +4,10 @@ export default{
 }
 </script>
 <template>
-    <footer><h1>Footer</h1></footer>
+    <footer>
+        
+    </footer>
 </template>
-<style scoped></style>
+<style scoped>
+
+</style>

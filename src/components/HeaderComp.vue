@@ -7,42 +7,47 @@ export default {
 
 <template>
   <header class="header">
-    <h1>Logo</h1>
-
-    <ul class="nav_bar">
-      <li><a>Resume</a></li>
-      <li><a>Projects</a></li>
-      <li><a>Contact</a></li>
-    </ul>
-
-    <h1>N/D</h1>
+    <div class="logo">
+      <a>Harique.dev</a>
+    </div>
+    <div class="nav_bar">
+      <a>About</a>
+      <a>Resume</a>
+      <a>Projects</a>
+      <a>Contact</a>
+    </div>
   </header>
 </template>
 
 <style scoped>
-.header {
+.header{
   display: flex;
+  height: 5rem;
+  padding: 0rem 5rem;
   justify-content: space-between;
   align-items: center;
-  flex-shrink: 0;
   align-self: stretch;
-  height: 5.625rem;
-  color: var(--clr-txt-primary);
+  background: var(--clr-bg-blue);
 }
-.nav_bar {
+.logo{
+  color: var(--clr-txt-primary);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal
+}
+.nav_bar{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  gap: 1.875rem;
   align-self: stretch;
-  gap: 3.125rem;
-
 }
-.nav_bar li {
-  display: inline-block;
-
-}
-.nav_bar a{
-    font-size: 18px;
+.nav_bar a {
+  color: var(--clr-txt-primary);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal
 }
 </style>

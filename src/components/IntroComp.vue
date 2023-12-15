@@ -1,81 +1,82 @@
 <script lang="ts">
 import '../assets/main.css'
+import GithubIcon from "./icons/IconGithub.vue"
+import LinkedInIcon from "./icons/IconLinkedIn.vue"
+
 export default {
-  name: 'IntroComp'
+    name: 'IntroComp',
+    components: { GithubIcon, LinkedInIcon}
+    
 }
 </script>
 
 <template>
-  <main class="main">
     <div class="intro">
-      <h1>HI! I’m <a>Hakim</a> oukil</h1>
-      <p>
-        I’m a self-taught <a>software engineer</a> with a strong foundation in
-        <a>web-development</a>. I’m passionate about <a>web-development</a>,<a>software</a>, and
-        everything related to Technology.
-      </p>
-      <div class="button">
-        <p>My Projects</p>
+      <div class="writing">
+        <h2>Hi, my name is:</h2>
+        <h1>Hakim Oukil</h1>
+        <p>I’m a self-taught software engineer with a strong foundation in web-development,<br> automation, software development, and everything in between.</p>
+        <div class="icons">
+          <GithubIcon></GithubIcon>
+          <LinkedInIcon></LinkedInIcon>
+        </div>
+        
+
       </div>
+      
     </div>
-  </main>
 </template>
 <style scoped>
-.main {
+.intro{
   display: flex;
-  width: 100%;
-  height: 100%;
-  padding: 10.625rem 5rem;
-  gap: 0.625rem;
-  flex: 1 0 0;
+  padding: 7.813rem 15.938rem;
   flex-direction: column;
-  align-items: flex-start;
-  align-self: stretch;
-}
-.intro {
-  display: flex;
-  width: 47.5rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1.25rem;
-  padding: 0.938rem 0;
-}
-.button {
-  display: flex;
-  width: 11.5rem;
-  height: 3.75rem;
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
-  border-radius: 5px;
-  border: 1px solid var(--clr-txt-accent);
-  background: var(--clr-txt-accent);
+  flex-shrink: 0;
+  align-self: stretch;
 }
-.button p {
-    color: var(--clr-bg);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.writing {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.938rem;
+  flex: 1 0 0;
+  align-self: stretch;
+  margin: 0;
 }
-.intro h1 {
-  color: var(--clr-txt-primary);
-  height: min-content;
-  font-size: 48px;
+.icons {
+  display: flex;
+  padding: 0.625rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+h2{
+  margin: 0;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: normal;
+  color: var(--clr-txt-primary);
+  height: min-content;
+}
+h1{
   margin: 0;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--clr-txt-primary);
 }
-h1 a {
-  color: var(--clr-txt-accent);
-}
-p {
-  color: var(--clr-txt-secondary);
+p{
+  margin: 0;
   font-size: 20px;
-  margin: 0;
-}
-p a {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   color: var(--clr-txt-primary);
 }
 </style>
