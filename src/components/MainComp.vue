@@ -1,9 +1,10 @@
 <script lang="ts">
 import '../assets/main.css'
 import IntroComp from "./IntroComp.vue"
+import AboutComp from './AboutComp.vue';
 export default {
     name: 'MainComp',
-    components: {IntroComp}
+    components: {IntroComp, AboutComp}
 }
 </script>
 
@@ -11,6 +12,7 @@ export default {
 
   <main class="main">
     <IntroComp></IntroComp>
+    <AboutComp></AboutComp>
   </main>
   
 </template>
