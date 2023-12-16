@@ -1,4 +1,5 @@
 <script lang="ts">
+import '../assets/main.css'
 export default{
     name:"AboutComp"
 }
@@ -18,7 +19,6 @@ export default{
 
 <style scoped>
 .about {
-    background: var(--clr-bg);
     display: flex;
     height: 41rem;
     padding: 0.625rem 9.75rem 0.625rem 10.188rem;
