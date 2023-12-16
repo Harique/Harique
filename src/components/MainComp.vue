@@ -11,7 +11,6 @@ export default {
 
   <main class="main">
     <IntroComp></IntroComp>
-
   </main>
   
 </template>
@@ -23,6 +22,5 @@ export default {
   flex-direction: column;
   align-items: center;
   gap: 1.25rem;
-  align-self: stretch;
 }
 </style>
