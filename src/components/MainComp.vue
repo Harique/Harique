@@ -11,6 +11,7 @@ export default {
 
   <main class="main">
     <IntroComp></IntroComp>
+
   </main>
   
 </template>

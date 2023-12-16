@@ -22,14 +22,15 @@ export default {
 <style scoped>
 .header{
   display: flex;
-  height: 5rem;
-  padding: 0rem 5rem;
+  height: 79px;
+  padding: 1.719rem 5rem 1.719rem 5rem;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
   background: var(--clr-bg-blue);
 }
 .logo{
+
   color: var(--clr-txt-primary);
   font-size: 20px;
   font-style: normal;
@@ -37,11 +38,13 @@ export default {
   line-height: normal
 }
 .nav_bar{
+  text-align: center;
+
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.875rem;
-  align-self: stretch;
+
 }
 .nav_bar a {
   color: var(--clr-txt-primary);

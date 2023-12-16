@@ -4,31 +4,31 @@
   --clr-bg-blue: #131B23;
   --clr-txt-primary: #FFFFFF;
   --clr-txt-secondary: #BEBEBE;
-  --clr-txt-accent: #EB8B4C;
+  --clr-txt-accent: #64ABFF;
+  --clr-txt-accent-2:#147EFB;
 
 }
 
 
 body,html {
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--clr-bg);
   margin: 0;
   font-family: 'Rubik', sans-serif;
-  scroll-behavior: smooth;
+  overflow: auto;
 }
 
 #app{
   height: 100%;
   width: 100%;
   display: flex;
-
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 0.625rem;
-  overflow: hidden;
+
 }
 
 
