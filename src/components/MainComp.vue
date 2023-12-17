@@ -4,9 +4,10 @@ import IntroComp from "./IntroComp.vue"
 import AboutComp from './AboutComp.vue';
 import ResumeComp from './ResumeComp.vue';
 import ProjectsComp from './ProjectsComp.vue';
+import ContactComp from './ContactComp.vue';
 export default {
     name: 'MainComp',
-    components: {IntroComp, AboutComp,ResumeComp,ProjectsComp}
+    components: {IntroComp, AboutComp,ResumeComp,ProjectsComp,ContactComp}
 }
 </script>
 
@@ -18,6 +19,7 @@ export default {
       <AboutComp></AboutComp>
       <ResumeComp></ResumeComp>
       <ProjectsComp></ProjectsComp>
+      <ContactComp></ContactComp>
     </div>
     
   </main>
