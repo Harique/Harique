@@ -1,8 +1,6 @@
-<script lang="ts">
+<script setup lang="ts">
 import '../assets/main.css'
-export default {
-  name: 'AboutComp'
-}
+
 </script>
 
 <template>

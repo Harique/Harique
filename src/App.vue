@@ -6,7 +6,9 @@ import FooterComp from './components/FooterComp.vue'
 
 <template>
   <div class="main_div">
-    <HeaderComp />
+    <header>
+      <HeaderComp></HeaderComp>
+    </header>
     <MainComp />
     <FooterComp></FooterComp>
   </div>

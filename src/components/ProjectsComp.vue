@@ -1,7 +1,5 @@
-<script lang="ts">
-export default {
-  name: 'PorjectsComp'
-}
+<script setup lang="ts">
+
 </script>
 <template>
   <div class="container">

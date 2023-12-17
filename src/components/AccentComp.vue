@@ -1,8 +1,8 @@
-<script lang="ts">
-export default {
-  name: 'AccentComp',
-  props: { phrase: String }
-}
+<script setup lang="ts">
+defineProps({
+  phrase:String
+})
+
 </script>
 <template>
   <a class="prop">{{ phrase }}</a>

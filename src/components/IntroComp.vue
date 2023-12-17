@@ -1,13 +1,10 @@
-<script lang="ts">
+<script setup lang="ts">
 import '../assets/main.css'
 import GithubIcon from './icons/IconGithub.vue'
 import LinkedInIcon from './icons/IconLinkedIn.vue'
 import AccentComp from './AccentComp.vue'
 
-export default {
-  name: 'IntroComp',
-  components: { GithubIcon, LinkedInIcon, AccentComp }
-}
+
 </script>
 
 <template>

@@ -1,14 +1,11 @@
-<script lang="ts">
+<script setup lang="ts">
 import '../assets/main.css'
 import IntroComp from './IntroComp.vue'
 import AboutComp from './AboutComp.vue'
 import ResumeComp from './ResumeComp.vue'
 import ProjectsComp from './ProjectsComp.vue'
 import ContactComp from './ContactComp.vue'
-export default {
-  name: 'MainComp',
-  components: { IntroComp, AboutComp, ResumeComp, ProjectsComp, ContactComp }
-}
+
 </script>
 
 <template>
