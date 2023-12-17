@@ -3,9 +3,10 @@ import '../assets/main.css'
 import IntroComp from "./IntroComp.vue"
 import AboutComp from './AboutComp.vue';
 import ResumeComp from './ResumeComp.vue';
+import ProjectsComp from './ProjectsComp.vue';
 export default {
     name: 'MainComp',
-    components: {IntroComp, AboutComp,ResumeComp}
+    components: {IntroComp, AboutComp,ResumeComp,ProjectsComp}
 }
 </script>
 
@@ -16,6 +17,7 @@ export default {
     <div class="white_part">
       <AboutComp></AboutComp>
       <ResumeComp></ResumeComp>
+      <ProjectsComp></ProjectsComp>
     </div>
     
   </main>
