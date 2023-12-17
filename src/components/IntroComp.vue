@@ -6,7 +6,7 @@ import AccentComp from './AccentComp.vue'
 
 export default {
   name: 'IntroComp',
-  components: { GithubIcon, LinkedInIcon ,AccentComp}
+  components: { GithubIcon, LinkedInIcon, AccentComp }
 }
 </script>
 
@@ -14,10 +14,12 @@ export default {
   <div class="intro">
     <div class="writing">
       <h2>Hi, my name is:</h2>
-      <h1><AccentComp phrase="Hakim"/> Oukil</h1>
+      <h1><AccentComp phrase="Hakim" /> Oukil</h1>
       <p>
-        I’m a self-taught software engineer with a strong foundation in <AccentComp phrase="web-development"/>,<br />
-        <AccentComp phrase="automation"/>, <AccentComp phrase="software development"/>, and everything in between.
+        I’m a self-taught software engineer with a strong foundation in
+        <AccentComp phrase="web-development" />,<br />
+        <AccentComp phrase="automation" />, <AccentComp phrase="software development" />, and
+        everything in between.
       </p>
       <div class="icons">
         <GithubIcon></GithubIcon>
@@ -25,13 +27,8 @@ export default {
       </div>
       <div class="button">
         <p>My Projects</p>
-        
       </div>
-      
-      
     </div>
-    
-    
   </div>
 </template>
 <style scoped>
@@ -100,7 +97,7 @@ p {
   border-radius: 5px;
   background: var(--clr-txt-accent);
 }
-.button p{
+.button p {
   color: var(--clr-bg-blue);
   display: flex;
   flex-direction: column;

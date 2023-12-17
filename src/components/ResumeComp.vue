@@ -114,7 +114,7 @@ export default {
 .timeline {
   display: flex;
   height: 21rem;
-  padding:  1.875rem;
+  padding: 1.875rem;
   flex-direction: column;
   align-items: center;
   gap: 0.625rem;

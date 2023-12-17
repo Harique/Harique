@@ -54,7 +54,7 @@ export default {
   color: var(--clr-bg);
 }
 .credits a {
-  color: #BEBEBE;
+  color: #bebebe;
   margin: 0;
   font-size: 16px;
   font-style: normal;

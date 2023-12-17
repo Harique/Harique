@@ -1,18 +1,17 @@
 <script lang="ts">
 import '../assets/main.css'
-import IntroComp from "./IntroComp.vue"
-import AboutComp from './AboutComp.vue';
-import ResumeComp from './ResumeComp.vue';
-import ProjectsComp from './ProjectsComp.vue';
-import ContactComp from './ContactComp.vue';
+import IntroComp from './IntroComp.vue'
+import AboutComp from './AboutComp.vue'
+import ResumeComp from './ResumeComp.vue'
+import ProjectsComp from './ProjectsComp.vue'
+import ContactComp from './ContactComp.vue'
 export default {
-    name: 'MainComp',
-    components: {IntroComp, AboutComp,ResumeComp,ProjectsComp,ContactComp}
+  name: 'MainComp',
+  components: { IntroComp, AboutComp, ResumeComp, ProjectsComp, ContactComp }
 }
 </script>
 
 <template>
-
   <main class="main">
     <IntroComp></IntroComp>
     <div class="white_part">
@@ -21,20 +20,18 @@ export default {
       <ProjectsComp></ProjectsComp>
       <ContactComp></ContactComp>
     </div>
-    
   </main>
-  
 </template>
 
 <style scoped>
-.main{
+.main {
   background: var(--clr-bg-blue);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.25rem;
 }
-.white_part{
+.white_part {
   width: 100%;
   margin: 0;
   background: var(--clr-bg);

@@ -23,7 +23,7 @@ export default {
   max-height: min-content;
 }
 .container h1 {
-    color: var(--clr-txt-third);
+  color: var(--clr-txt-third);
   margin: 0;
   font-size: 40px;
   font-style: normal;
