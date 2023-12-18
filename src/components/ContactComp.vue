@@ -13,7 +13,7 @@
 <style scoped>
 .container {
   display: flex;
-  padding: 0.625rem;
+  padding: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;

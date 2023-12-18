@@ -26,11 +26,15 @@ import ContactComp from './ContactComp.vue'
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.875rem;
 }
 .white_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   margin: 0;
   background: var(--clr-bg);
+  gap: 3.125rem;
 }
 </style>
