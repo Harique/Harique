@@ -1,60 +1,61 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 <template>
-    <div class="skills">
-        <h1>Skills</h1>
-        <div class="skillset">
-          <h2>Frontend</h2>
-          <div class="skills_list">
-            <a>CSS</a>
-            <a>HTML</a>
-            <a>Vue.js</a>
-            <a>Next.js</a>
-            <a>React</a>
-            <a>Redux</a>
-            <a>Javascript</a>
-            <a>Typescript</a>
-          </div>
-        </div>
-        <div class="skillset">
-          <h2>Backend</h2>
-          <div class="skills_list">
-            <a>Express</a>
-            <a>Node</a>
-            <a>Nest.js</a>
-            <a>Next.js</a>
-            <a>.NET</a>
-            <a>Typescript</a>
-            <a>C#</a>
-          </div>
-        </div>
-        <div class="skillset">
-          <h2>Database</h2>
-          <div class="skills_list">
-            <a>MongoDb</a>
-          </div>
-        </div>
-        <div class="skillset">
-          <h2>Languages</h2>
-          <div class="skills_list">
-            <a>Javascript</a>
-            <a>Typescript</a>
-            <a>C#</a>
-            <a>Python</a>
-            <a>CSS</a>
-            <a>HTML</a>
-          </div>
-        </div>
-        <div class="skillset">
-          <h2>Other</h2>
-          <div class="skills_list">
-            <a>Git</a>
-            <a>Github</a>
-            <a>Discord</a>
-          </div>
-        </div>
+  <div class="skills">
+    <h1>
+      Skills
+    </h1>
+
+    <div class="skillset">
+      <h2>Frontend</h2>
+      <div class="skills_list">
+        <a>CSS</a>
+        <a>HTML</a>
+        <a>Vue.js</a>
+        <a>Next.js</a>
+        <a>React</a>
+        <a>Redux</a>
+        <a>Javascript</a>
+        <a>Typescript</a>
       </div>
+    </div>
+    <div class="skillset">
+      <h2>Backend</h2>
+      <div class="skills_list">
+        <a>Express</a>
+        <a>Node</a>
+        <a>Nest.js</a>
+        <a>Next.js</a>
+        <a>.NET</a>
+        <a>Typescript</a>
+        <a>C#</a>
+      </div>
+    </div>
+    <div class="skillset">
+      <h2>Database</h2>
+      <div class="skills_list">
+        <a>MongoDb</a>
+      </div>
+    </div>
+    <div class="skillset">
+      <h2>Languages</h2>
+      <div class="skills_list">
+        <a>Javascript</a>
+        <a>Typescript</a>
+        <a>C#</a>
+        <a>Python</a>
+        <a>CSS</a>
+        <a>HTML</a>
+      </div>
+    </div>
+    <div class="skillset">
+      <h2>Other</h2>
+      <div class="skills_list">
+        <a>Git</a>
+        <a>Github</a>
+        <a>Discord</a>
+      </div>
+    </div>
+  </div>
 </template>
 <style scoped>
 .skills {
@@ -62,6 +63,8 @@
   flex-direction: column;
   gap: 0.625rem;
   flex: 1 0 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .skillset {
   display: flex;
@@ -86,18 +89,20 @@
 }
 .skills h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   color: var(--clr-txt-accent-2);
+  padding-bottom: 1rem;
 }
 .skills h2 {
   color: var(--clr-txt-third);
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
 }
+
 </style>

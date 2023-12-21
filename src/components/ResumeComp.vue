@@ -80,7 +80,7 @@ import SkillsComp from './SkillsComp.vue';
   padding: 1.563rem;
   flex-direction: column;
   gap: 0.625rem;
-  border-radius: 0.625rem;
+  border-radius: 0.25rem;
   background: var(--clr-bg-blue);
 }
 
