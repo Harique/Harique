@@ -18,6 +18,7 @@ html {
   margin: 0;
   font-family: 'Rubik', sans-serif;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 
 #app {

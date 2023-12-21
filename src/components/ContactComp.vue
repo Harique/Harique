@@ -2,7 +2,7 @@
 
 </script>
 <template>
-  <div class="container">
+  <div class="container" id="contact">
     <h1>Let's have a <a>chat !</a></h1>
     <h2><a>loiza2330@gmail.com</a></h2>
     <button class="button">
@@ -45,6 +45,7 @@
   gap: 0.625rem;
   background: var(--clr-txt-accent);
   border: 0;
+  border-radius: 5px;
 }
 .button p {
   margin: 0;

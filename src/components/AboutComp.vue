@@ -4,7 +4,7 @@ import '../assets/main.css'
 </script>
 
 <template>
-  <div class="about">
+  <div class="about" id="about">
     <div class="image">
       <img src="../assets/Laptop.jpg" alt="laptop" />
     </div>

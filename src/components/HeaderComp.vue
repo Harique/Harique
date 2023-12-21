@@ -9,10 +9,10 @@ import '../assets/main.css'
       <a>Harique.dev</a>
     </div>
     <div class="nav_bar">
-      <a>About</a>
-      <a>Resume</a>
-      <a>Projects</a>
-      <a>Contact</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </div>
   </header>
 </template>
@@ -46,7 +46,7 @@ import '../assets/main.css'
   color: var(--clr-txt-primary);
   font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 }
 </style>

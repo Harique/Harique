@@ -3,7 +3,7 @@ import '../assets/main.css'
 import SkillsComp from './SkillsComp.vue';
 </script>
 <template>
-  <div class="resume">
+  <div class="resume" id="resume">
     <h1>Resume</h1>
     <h2>Timeline :</h2>
 
@@ -23,7 +23,7 @@ import SkillsComp from './SkillsComp.vue';
       </div>
     </div>
 
-    <h2>Work experience</h2>
+    <h2>Work experience :</h2>
 
     <div class="work">
       <div class="work_history"></div>
