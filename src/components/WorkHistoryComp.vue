@@ -101,7 +101,7 @@ p {
   gap: 10px;
 }
 .tech_used a {
-    color: var(--clr-txt-primary);
+  color: var(--clr-txt-primary);
   font-size: 12px;
   font-style: normal;
   font-weight: 500;

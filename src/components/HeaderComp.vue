@@ -53,6 +53,6 @@ import '../assets/main.css'
   transition: all 0.2s linear;
 }
 .nav_bar a:hover{
-  color: var(--clr-bg-darker-blue);
+  color: var(--clr-bg-blue);
 }
 </style>
