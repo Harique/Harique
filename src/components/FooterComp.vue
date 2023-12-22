@@ -19,7 +19,7 @@
   padding: 0.625rem 10.188rem;
   justify-content: space-between;
   flex: 1 0 0;
-  background: var(--clr-bg-blue);
+  background: var(--clr-bg-darker-blue);
 }
 .copyright {
   display: flex;

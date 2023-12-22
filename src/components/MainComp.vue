@@ -22,7 +22,7 @@ import ContactComp from './ContactComp.vue'
 
 <style scoped>
 .main {
-  background: var(--clr-bg-blue);
+  background: var(--clr-bg-darker-blue);
   display: flex;
   flex-direction: column;
   align-items: center;

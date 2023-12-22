@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import '../assets/main.css'
 import SkillsComp from './SkillsComp.vue';
+import WorkHistoryComp from './WorkHistoryComp.vue';
 </script>
 <template>
   <div class="resume" id="resume">
@@ -26,7 +27,11 @@ import SkillsComp from './SkillsComp.vue';
     <h2>Work experience :</h2>
 
     <div class="work">
-      <div class="work_history"></div>
+      <div class="work_history">
+       
+        <WorkHistoryComp></WorkHistoryComp>
+      </div>
+     
         <SkillsComp></SkillsComp>
     </div>
   </div>
@@ -65,7 +70,7 @@ import SkillsComp from './SkillsComp.vue';
   gap: 0.625rem;
   align-self: stretch;
   border-radius: 5px;
-  background: var(--clr-bg-blue);
+  background: var(--clr-bg-darker-blue);
 }
 .work {
   display: flex;
@@ -76,11 +81,11 @@ import SkillsComp from './SkillsComp.vue';
 .work_history {
   display: flex;
   width: 49.5rem;
-  padding: 1.563rem;
+  padding: 1.5rem;
   flex-direction: column;
   gap: 0.625rem;
   border-radius: 0.25rem;
-  background: var(--clr-bg-blue);
+  background: var(--clr-bg-darker-blue);
 }
 
 .timeline_work {

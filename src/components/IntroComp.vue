@@ -95,7 +95,7 @@ p {
   background: var(--clr-txt-accent);
 }
 .button p {
-  color: var(--clr-bg-blue);
+  color: var(--clr-bg-darker-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;

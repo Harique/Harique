@@ -26,7 +26,7 @@ import '../assets/main.css'
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
-  background: var(--clr-bg-blue);
+  background: var(--clr-bg-darker-blue);
   
 }
 .logo {
