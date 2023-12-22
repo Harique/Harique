@@ -33,7 +33,6 @@ import SkillsComp from './SkillsComp.vue';
 </template>
 <style scoped>
 .resume {
-  background: var(--clr-bg);
   display: flex;
   padding: 0.625rem 10.188rem;
   flex-direction: column;

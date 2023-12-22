@@ -25,6 +25,7 @@ import FooterComp from './components/FooterComp.vue'
   flex-direction: column;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  scroll-padding: 5rem;
 }
 .main_div::-webkit-scrollbar {
   display: none;

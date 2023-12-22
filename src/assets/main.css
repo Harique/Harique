@@ -2,6 +2,7 @@
 :root {
   --clr-bg: #F2F5FB;
   --clr-bg-blue: #1B212F;
+  --clr-bg-darker-blue: #5A7FFB;
   --clr-txt-primary: #ffffff;
   --clr-txt-secondary: #767683;
   --clr-txt-third: #2d2e32;
@@ -16,7 +17,9 @@ html {
   background-color: var(--clr-bg);
   margin: 0;
   font-family: 'Rubik', sans-serif;
-  scroll-behavior: smooth;
+}
+body header{
+  position: sticky; top: 0;
 }
 
 #app {

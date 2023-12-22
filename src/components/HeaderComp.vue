@@ -27,6 +27,7 @@ import '../assets/main.css'
   align-items: center;
   align-self: stretch;
   background: var(--clr-bg-blue);
+  
 }
 .logo {
   color: var(--clr-txt-primary);
@@ -48,5 +49,10 @@ import '../assets/main.css'
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+.nav_bar a:hover{
+  color: var(--clr-bg-darker-blue);
 }
 </style>
