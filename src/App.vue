@@ -20,6 +20,13 @@ import FooterComp from './components/FooterComp.vue'
   width: 100%;
   height: 100%;
   display: flex;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
   flex-direction: column;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.main_div::-webkit-scrollbar {
+  display: none;
 }
 </style>

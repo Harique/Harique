@@ -46,7 +46,7 @@ import '../assets/main.css'
   color: var(--clr-txt-primary);
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
 }
 </style>

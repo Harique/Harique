@@ -8,13 +8,14 @@
       <h1>Credits:</h1>
       <a>Stefan Topalovic</a>
       <a>Andrew Lu</a>
+      <a>Stormix</a>
     </div>
   </footer>
 </template>
 <style scoped>
 .footer {
   display: flex;
-  min-height: 7rem;
+  min-height:fit-content;
   padding: 0.625rem 10.188rem;
   justify-content: space-between;
   flex: 1 0 0;

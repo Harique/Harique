@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 :root {
-  --clr-bg: #ffffff;
-  --clr-bg-blue: #131b23;
+  --clr-bg: #F2F5FB;
+  --clr-bg-blue: #1B212F;
   --clr-txt-primary: #ffffff;
   --clr-txt-secondary: #767683;
   --clr-txt-third: #2d2e32;
@@ -11,13 +11,11 @@
 
 body,
 html {
-  display: flex;
   height: 100%;
   width: 100%;
   background-color: var(--clr-bg);
   margin: 0;
   font-family: 'Rubik', sans-serif;
-  overflow: auto;
   scroll-behavior: smooth;
 }
 
@@ -27,6 +25,5 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   gap: 0.625rem;
 }
