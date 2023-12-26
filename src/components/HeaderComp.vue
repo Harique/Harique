@@ -47,7 +47,7 @@ import '../assets/main.css'
   color: var(--clr-txt-primary);
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
   text-decoration: none;
   transition: all 0.2s linear;

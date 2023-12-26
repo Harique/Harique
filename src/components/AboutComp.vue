@@ -11,11 +11,7 @@ import '../assets/main.css'
     <div class="writing">
       <h1>Background</h1>
       <p>
-        my name is Hakim Oukil and i am a self-taught software engineer, i define myself as a
-        passionate technology guy who likes to try new things and take on harder challenges to
-        improve and adapt to the situation whenever needed, i am more of a software focused
-        developer with a strong grasp on server side technologies such as: APIs, databases using
-        languages such as : C#, JS/TS, Java and more.
+        My name is Hakim Oukil, and I am a self-taught software engineer. I define myself as a passionate technology guy who likes to try new things and take on harder challenges to improve and adapt to the situation whenever needed. I am more of a software-focused developer with a strong grasp on server-side technologies such as APIs and databases using languages such as C#, JS/TS, Java, and more.
       </p>
     </div>
   </div>
