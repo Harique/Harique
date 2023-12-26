@@ -28,7 +28,6 @@ import WorkHistoryComp from './WorkHistoryComp.vue';
 
     <div class="work">
       <div class="work_history">
-       
         <WorkHistoryComp></WorkHistoryComp>
       </div>
      
@@ -80,7 +79,7 @@ import WorkHistoryComp from './WorkHistoryComp.vue';
 }
 .work_history {
   display: flex;
-  width: 49.5rem;
+  width: 62%;
   padding: 1.5rem;
   flex-direction: column;
   gap: 0.625rem;

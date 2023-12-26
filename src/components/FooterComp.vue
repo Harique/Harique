@@ -6,9 +6,9 @@
     <div class="copyright"><p>Copyright © 2023. All rights reserved</p></div>
     <div class="credits">
       <h1>Credits:</h1>
-      <a>Stefan Topalovic</a>
-      <a>Andrew Lu</a>
-      <a>Stormix</a>
+      <a href="https://www.stefantopalovic.com/" target="_blank">Stefan Topalovic</a>
+      <a href="https://techrez.io/resume/andrew-lu" target="_blank">Andrew Lu</a>
+      <a href="https://stormix.co/" target="_blank">Stormix</a>
     </div>
   </footer>
 </template>
@@ -53,11 +53,16 @@
   color: var(--clr-bg);
 }
 .credits a {
+  text-decoration: none;
   color: #bebebe;
   margin: 0;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  transition: all 0.2s linear;
+}
+.credits a:hover{
+  color: var(--clr-bg-blue);
 }
 </style>

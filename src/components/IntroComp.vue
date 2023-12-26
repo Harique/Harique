@@ -19,11 +19,11 @@ import AccentComp from './AccentComp.vue'
         everything in between.
       </p>
       <div class="icons">
-        <GithubIcon></GithubIcon>
-        <LinkedInIcon></LinkedInIcon>
+        <a href="https://github.com/Harique" target="_blank"><GithubIcon></GithubIcon></a>
+        <a href="https://www.linkedin.com/in/hakim-oukil-946b55204/" target="_blank"><LinkedInIcon></LinkedInIcon></a>
       </div>
       <div class="button">
-        <p>My Projects</p>
+        <a href="#projects">My Projects</a>
       </div>
     </div>
   </div>
@@ -32,7 +32,7 @@ import AccentComp from './AccentComp.vue'
 .intro {
   display: flex;
   padding: 7.813rem 15.938rem;
-  height: 26.25rem;
+  height: 55vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -84,17 +84,21 @@ p {
 }
 .button {
   display: flex;
-  width: 10.25rem;
-  height: 2.5rem;
-  padding: 0.625rem;
+  width: 11.5rem;
+  height: 3.75rem;
   justify-content: center;
   text-align: center;
   align-items: flex-start;
   gap: 0.625rem;
   border-radius: 5px;
   background: var(--clr-txt-accent);
+  transition: all 0.2s linear;
 }
-.button p {
+.button:hover{
+  background: var(--clr-bg-blue);
+}
+.button a {
+  text-decoration: none;
   color: var(--clr-bg-darker-blue);
   display: flex;
   flex-direction: column;

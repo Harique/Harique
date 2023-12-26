@@ -46,19 +46,18 @@
   background: var(--clr-txt-accent);
   border: 0;
   border-radius: 5px;
+  transition: all 0.2s linear;
+}
+.button:hover{
+  background: var(--clr-bg-blue);
 }
 .button p {
-  margin: 0;
   color: var(--clr-bg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  flex: 1 0 0;
-  align-self: stretch;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 </style>
