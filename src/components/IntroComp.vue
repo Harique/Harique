@@ -91,7 +91,7 @@ p {
   align-items: flex-start;
   gap: 0.625rem;
   border-radius: 5px;
-  background: var(--clr-txt-accent);
+  background: var(--clr-bg-blue);
   transition: all 0.2s linear;
 }
 .button:hover{
@@ -99,7 +99,7 @@ p {
 }
 .button a {
   text-decoration: none;
-  color: var(--clr-bg-darker-blue);
+  color: var(--clr-txt-primary);
   display: flex;
   flex-direction: column;
   justify-content: center;

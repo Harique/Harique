@@ -34,7 +34,7 @@
           <a>Typescript</a>
           <a>React</a>
           <a>Nextjs</a>
-          <a>MySQL</a>
+          <a>PostgreSQL</a>
         </div>
       </div>
     </div>
