@@ -68,7 +68,7 @@ import WorkHistoryComp from './WorkHistoryComp.vue';
   align-items: center;
   gap: 0.625rem;
   align-self: stretch;
-  border-radius: 5px;
+  border-radius: 3px;
   background: var(--clr-bg-darker-blue);
 }
 .work {
@@ -97,7 +97,7 @@ import WorkHistoryComp from './WorkHistoryComp.vue';
 .white_line {
   display: flex;
   width: 100%;
-  height: 5px;
+  height: 4px;
   background: var(--clr-bg);
 }
 .years {
@@ -109,9 +109,9 @@ import WorkHistoryComp from './WorkHistoryComp.vue';
   align-self: stretch;
 }
 .years a {
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
   color: var(--clr-bg);
 }

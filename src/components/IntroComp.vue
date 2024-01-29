@@ -14,8 +14,8 @@ import AccentComp from './AccentComp.vue'
       <h1><AccentComp phrase="Hakim" /> Oukil</h1>
       <p>
         I’m a self-taught software engineer with a strong foundation in
-        <AccentComp phrase="web-development" />,<br />
-        <AccentComp phrase="automation" />, <AccentComp phrase="software development" />, and
+        <AccentComp phrase="software development" />,<br />
+        <AccentComp phrase="automation" />, <AccentComp phrase="problem solving" />, and
         everything in between.
       </p>
       <div class="icons">
@@ -108,4 +108,5 @@ p {
   font-size: 20px;
   font-weight: 500;
 }
+
 </style>
